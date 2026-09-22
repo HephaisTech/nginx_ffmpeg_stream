@@ -1,0 +1,19 @@
+{
+  "name": "streaming",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "start": "bun run index.js"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
